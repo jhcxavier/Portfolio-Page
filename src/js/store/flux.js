@@ -34,18 +34,18 @@ const getState = ({ getStore, setStore, getActions }) => {
 		},
 		store: {
 			cardStyle: 0,
-			userLoggedIn: false,
+			userLoggedIn: true,
 			user: {
 				id: 1,
-				firstName: "Hernan",
-				lastName: "Garcia",
-				email: "hernan.garcia@gmail.com",
-				dobDate: "5/30/80",
+				firstName: "João Henrique",
+				lastName: "Xavier",
+				email: "jhcxavier@gmail.com",
+				dobDate: "09/29/1987",
 				imageURL:
 					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrmNOXEcCL03rw3gs5zlYF7NglJ-0DdrIE1tujA2h2buim-Kd",
 				resumeStyle: null,
 				theme: null,
-				title: "Software Engineer",
+				title: "Web Developer",
 				display: "objective"
 			},
 			experience: [

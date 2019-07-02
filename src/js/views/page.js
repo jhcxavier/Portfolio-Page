@@ -7,7 +7,7 @@ export class Page extends React.Component {
 		super(props);
 
 		this.state = {
-			store: null, 
+			store: null,
 			content: null,
 			display: "objective"
 		};

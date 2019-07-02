@@ -3,12 +3,6 @@ import injectContext, { Context } from "./store/appContext";
 import ScrollToTop from "./component/scrollToTop";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Card_1 from "../img/Card_1.png";
-import Card_2 from "../img/Card_2.png";
-import Card_3 from "../img/Card_3.png";
-import Card_4 from "../img/Card_4.png";
-import Card_5 from "../img/Card_5.png";
-
 import "../styles/index.scss";
 import "../styles/resume.scss";
 import "../styles/page.scss";
@@ -68,62 +62,6 @@ export class Layout extends React.Component {
 					) : (
 						<div className="d-flex flex-column h-100">
 							<div className="container-fluid">
-								<div className="top-panel row">
-									<div className="top-panel col-12 border-bottom text-center">
-										<div className="row">
-											<div className="col">
-												<img
-													className="business_card m-1"
-													src={Card_1}
-													onClick={() => {
-														actions.cardStyle(0);
-														this.setState({ right: "businessCard" });
-													}}
-												/>
-											</div>
-											<div className="col">
-												<img
-													className="business_card m-1"
-													src={Card_2}
-													onClick={() => {
-														actions.cardStyle(1);
-														this.setState({ right: "businessCard" });
-													}}
-												/>
-											</div>
-											<div className="col">
-												<img
-													className="business_card"
-													src={Card_3}
-													onClick={() => {
-														actions.cardStyle(2);
-														this.setState({ right: "businessCard" });
-													}}
-												/>
-											</div>
-											<div className="col">
-												<img
-													className="business_card"
-													src={Card_4}
-													onClick={() => {
-														actions.cardStyle(3);
-														this.setState({ right: "businessCard" });
-													}}
-												/>
-											</div>
-											<div className="col">
-												<img
-													className="business_card"
-													src={Card_5}
-													onClick={() => {
-														actions.cardStyle(4);
-														this.setState({ right: "businessCard" });
-													}}
-												/>
-											</div>
-										</div>
-									</div>
-								</div>
 								<div className="body row">
 									{this.state.right === "businessCard" ? (
 										""
