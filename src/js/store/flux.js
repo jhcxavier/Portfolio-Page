@@ -41,6 +41,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				lastName: "Xavier",
 				email: "jhcxavier@gmail.com",
 				linkedinURL: "https://www.linkedin.com/in/joao-henrique-xavier/",
+				githubURL: "https://github.com/jhcxavier",
 				dobDate: "09/29/1987",
 				imageURL:
 					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrmNOXEcCL03rw3gs5zlYF7NglJ-0DdrIE1tujA2h2buim-Kd",
