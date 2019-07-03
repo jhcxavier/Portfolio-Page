@@ -51,7 +51,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 			experience: [
 				{
 					id: 1,
-					title: "Programmer",
+					title: "Web Developer",
 					company: "4 Geeks Academy",
 					description: "Worked as a programmer using React and Flask.",
 					fromDate: "05/01/2019",
