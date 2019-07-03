@@ -40,6 +40,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				firstName: "João Henrique",
 				lastName: "Xavier",
 				email: "jhcxavier@gmail.com",
+				linkedinURL: "https://www.linkedin.com/in/joao-henrique-xavier/",
 				dobDate: "09/29/1987",
 				imageURL:
 					"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrmNOXEcCL03rw3gs5zlYF7NglJ-0DdrIE1tujA2h2buim-Kd",
@@ -69,16 +70,6 @@ const getState = ({ getStore, setStore, getActions }) => {
 					toDate: "09/01/2019",
 					resume: "true",
 					page: "false"
-				},
-				{
-					id: 3,
-					title: "Car Washer",
-					company: "Clean Clean Cars",
-					description: "Cleaned cars the best way that anyone can.",
-					fromDate: "05/01/2019",
-					toDate: "09/01/2019",
-					resume: "false",
-					page: "true"
 				},
 				{
 					id: 4,

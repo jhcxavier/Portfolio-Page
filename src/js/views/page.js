@@ -115,7 +115,12 @@ export class Page extends React.Component {
 								<Projects />
 							</div>
 							<footer className="mt-auto py-5 text-center">
-								<a href={store.user.linkedinURL} className="li-ic mr-5" role="button">
+								<a
+									href={store.user.linkedinURL}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="li-ic mr-5"
+									role="button">
 									<i className="fab fa-lg fa-linkedin-in" />
 								</a>
 								<a href={store.user.githubURL} className="git-ic mr-5" role="button">
