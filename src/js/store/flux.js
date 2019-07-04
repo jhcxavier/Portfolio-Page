@@ -91,12 +91,6 @@ const getState = ({ getStore, setStore, getActions }) => {
 					page: "true"
 				},
 				{
-					id: 2,
-					skill: "PHP",
-					resume: "false",
-					page: "true"
-				},
-				{
 					id: 3,
 					skill: "Java",
 					resume: "false",
