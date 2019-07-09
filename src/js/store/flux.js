@@ -98,7 +98,7 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 				{
 					id: 4,
-					skill: "HTML",
+					skill: "React Native",
 					resume: "false",
 					page: "true"
 				},
