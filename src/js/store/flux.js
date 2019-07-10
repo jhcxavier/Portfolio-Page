@@ -66,9 +66,9 @@ const getState = ({ getStore, setStore, getActions }) => {
 					title: "Police Officer",
 					company: "Policia Militar de Santa Catarina",
 					description:
-						"Managed people and distributed the workload among all the employees. Set tables and silverware.",
-					fromDate: "05/01/2019",
-					toDate: "09/01/2019",
+						"As part of the Military Police of Santa Catarina, I acted in the prevention of criminal activities and preventive actions contributing, effectively, not only for the security but also for the preservation of the culture and the traditions of Santa Catarina.",
+					fromDate: "10/07/2013",
+					toDate: "05/13/2016",
 					resume: "true",
 					page: "false"
 				},
