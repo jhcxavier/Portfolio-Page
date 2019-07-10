@@ -74,11 +74,11 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 				{
 					id: 4,
-					title: "Warehouse Manager",
-					company: "Bill Hansen's Catering",
-					description: "Organized events and employees.",
-					fromDate: "05/01/2019",
-					toDate: "09/01/2019",
+					title: "Partner",
+					company: "LJ Advocacia",
+					description: "My main task was to manage the execution of the activities related to the diligence and daily audiences throughout the State.",
+					fromDate: "08/10/2011",
+					toDate: "07/01/2013",
 					resume: "true",
 					page: "true"
 				}
