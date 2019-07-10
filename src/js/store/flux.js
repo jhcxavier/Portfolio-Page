@@ -63,8 +63,8 @@ const getState = ({ getStore, setStore, getActions }) => {
 				},
 				{
 					id: 2,
-					title: "Restaurant Manager",
-					company: "Centerplate",
+					title: "Police Officer",
+					company: "Policia Militar de Santa Catarina",
 					description:
 						"Managed people and distributed the workload among all the employees. Set tables and silverware.",
 					fromDate: "05/01/2019",
